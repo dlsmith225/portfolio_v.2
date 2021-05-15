@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body_index {
+    background: url("./assets/blue-sky.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.container_headline {
+    display:flex;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.h1_html {
+    width: 100%;
+    color: darkblue;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.p_html {
+    width: 100%;
+    color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: gray;
+}
+
+
+.body_about {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(187, 163, 117, 0.657);
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+
+.social-items {
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    justify-content: space-between;
+
+}
+.social-items a {
+    color: black;
+    display: inline-block
+}
+
+.card {
+    font-size: 28px;
+}
+
+
+.p_about {
+    font-size: 25px;
+}
+.body_projects {
+    background-color: goldenrod;
+}
+
+.card mb-3 {
+    justify-content: center;
+}
+.container_projects {
+    text-align: center;
+}
+
